@@ -1,0 +1,5 @@
+package br.cpom.fiap.entity;
+
+public class Ocorrencia {
+
+}

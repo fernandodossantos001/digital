@@ -1,0 +1,23 @@
+package br.com.fiap.bean;
+
+import br.com.fiap.dao.OcorrenciaDAO;
+import br.com.fiap.dao.impl.OcorrenciaDAOImpl;
+import br.com.fiap.singleton.EntityManagerFactorySingleton;
+import br.cpom.fiap.entity.Ocorrencia;
+
+public class OcorrenciaBean {
+	private Ocorrencia ocorrencia;
+	
+	private OcorrenciaDAO ocorrenciaRepository = new OcorrenciaDAOImpl(EntityManagerFactorySingleton.getInstance().createEntityManager());
+
+	public Ocorrencia getOcorrencia() {
+		return ocorrencia;
+	}
+
+	public void setOcorrencia(Ocorrencia ocorrencia) {
+		this.ocorrencia = ocorrencia;
+	}
+	
+	
+
+}

@@ -1,0 +1,40 @@
+package br.com.fiap.bean;
+
+import javax.annotation.PostConstruct;
+import javax.faces.bean.ManagedBean;
+import javax.faces.view.ViewScoped;
+
+import br.com.fiap.dao.OcorrenciaDAO;
+import br.com.fiap.dao.impl.OcorrenciaDAOImpl;
+import br.com.fiap.repository.EmpresaRepository;
+import br.com.fiap.singleton.EntityManagerFactorySingleton;
+import br.com.fiap.to.Empresa;
+import br.cpom.fiap.entity.Ocorrencia;
+
+@ManagedBean
+@ViewScoped
+public class OcorrenciaBean {
+	private Ocorrencia ocorrencia;
+	
+	private OcorrenciaDAO ocorrenciaRepository ;
+	
+	
+	@PostConstruct
+	public void init() {
+		ocorrencia = new Ocorrencia();
+		ocorrenciaRepository = = new OcorrenciaDAOImpl(EntityManagerFactorySingleton.getInstance().createEntityManager());
+
+	}
+	
+	
+	public Ocorrencia getOcorrencia() {
+		return ocorrencia;
+	}
+
+	public void setOcorrencia(Ocorrencia ocorrencia) {
+		this.ocorrencia = ocorrencia;
+	}
+	
+	
+
+}

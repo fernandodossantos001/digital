@@ -1,0 +1,17 @@
+package br.cpom.fiap.entity;
+
+import java.util.Calendar;
+
+public class Ocorrencia {
+	
+	private int codigo;
+	
+	private Calendar data;
+	
+	private String descricao;
+	
+	private boolean anonimo;
+	
+	private String denunciante;
+
+}

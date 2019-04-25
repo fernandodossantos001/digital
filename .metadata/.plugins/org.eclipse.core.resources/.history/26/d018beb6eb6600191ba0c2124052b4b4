@@ -1,0 +1,10 @@
+package br.com.fiap.bean;
+
+import br.cpom.fiap.entity.Ocorrencia;
+
+public class OcorrenciaBean {
+	private Ocorrencia ocorrencia;
+	
+	
+
+}

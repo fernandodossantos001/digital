@@ -1,0 +1,25 @@
+INDEX VERSION 1.130
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2258046826.index
+\06-WS-Provider\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2996229420.index
+\07-WS-Loja-Provider\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3119385012.index
+\07-WS-Loja-Provider\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3276463490.index
+\08-WS-Requester\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\285993077.index
+\09-WS-Loja-Requester\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1775416160.index
+\09-WS-Loja-Requester\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1543355777.index
+\07-WS-Loja-Provider\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\170099042.index
+\06-WS-Provider\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3589116732.index
+\08-WS-Requester\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1455404766.index
+\06-WS-Provider\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\421417837.index
+\09-WS-Loja-Requester\src
+C:\Users\logonrmlocal\Desktop\digital\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1360449846.index
+\08-WS-Requester\src
