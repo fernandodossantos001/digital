@@ -26,6 +26,10 @@
 			#{c.artigo}
 		</h:column>
 		<h:column>
+			<f:facet name="header">Anonimo</f:facet>
+			#{c.anonimo}
+		</h:column>
+		<h:column>
 			<f:facet name="header">Denunciante</f:facet>
 			#{c.anonimo?'*******' : c.denunciante}
 		</h:column>

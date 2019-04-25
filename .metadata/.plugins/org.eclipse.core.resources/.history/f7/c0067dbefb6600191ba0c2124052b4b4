@@ -53,7 +53,6 @@ public class OcorrenciaBean implements Serializable{
 	public void exibirMensagem(String mensagem) {
 		FacesMessage msg = new FacesMessage(mensagem);
 		FacesContext.getCurrentInstance().addMessage(null, msg);
-		FacesContext.getCurrentInstance().getExternalContext().getFlash().setKeepMessages(true);
 		
 	}
 	

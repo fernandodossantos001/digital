@@ -12,6 +12,7 @@
 </h:head>
 
 <h:body>
+	<h:link outcome="ocorrencia" value="Cadastrar Ocorrencia"></h:link>
 	<h:dataTable styleClass="table" value="#{ocorrenciaBean.listar()}" var="c">
 		<h:column>
 			<f:facet name="header">Data</f:facet>
@@ -25,12 +26,8 @@
 			#{c.artigo}
 		</h:column>
 		<h:column>
-			<f:facet name="header">Anonimo</f:facet>
-			#{c.anonimo}
-		</h:column>
-		<h:column>
 			<f:facet name="header">Denunciante</f:facet>
-			#{c.anonimo?'*******' : c.anonimo}
+			#{c.anonimo?'*******' : c.denunciante}
 		</h:column>
 		
 		<h:column>
