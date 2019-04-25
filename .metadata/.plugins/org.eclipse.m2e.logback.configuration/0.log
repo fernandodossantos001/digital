@@ -1376,3 +1376,4 @@ Caused by: java.io.FileNotFoundException: C:\Users\logonrmlocal\.m2\settings-sec
 2019-04-24 22:45:03,373 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-04-24 22:45:03,374 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\digital\17-JSF-JPA\src\main\resources
 2019-04-24 22:45:03,375 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-24 22:45:03,376 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrmlocal\Desktop\digital\17-JSF-JPA\src\test\resources
